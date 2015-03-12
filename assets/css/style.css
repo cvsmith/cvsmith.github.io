@@ -81,7 +81,7 @@ body {
 ::selection {
 	color: #fff;
 	text-shadow:none;
-	background:#2B2E31;
+	background:#d3d3d3;
 }
 *,
 *:after,
@@ -101,7 +101,7 @@ a {
 	-o-transition: background-color .4s linear, color .4s linear;
 	-ms-transition: background-color .4s linear, color .4s linear;
 	transition: background-color .4s linear, color .4s linear;
-	color: #1abc9c;
+	color: #fff;
 }
 a:hover,
 a:focus {
