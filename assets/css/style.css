@@ -58,7 +58,11 @@ body {
 	display: block;
 	clear: both;
 }
-.centered {text-align: center}
+.centered {text-align: center; position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)}
 .mt {margin-top: 50px;}
 .mb {margin-bottom: 50px;}
 .mtb {margin-top: 50px; margin-bottom: 50px;}
@@ -201,11 +205,12 @@ input {
 
 /* HEADER SECTION */
 #h {
+	position: relative;
 	background: url(../img/header.jpg) no-repeat center top;
 	padding-top: 5px;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 700px;
+	min-height: 100%;
 	width: 100%;
 	
     -webkit-background-size: 100%;
