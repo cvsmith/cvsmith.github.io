@@ -1,47 +1,119 @@
-<!DOCTYPE html>
-<html lang="en" class="csstransforms csstransforms3d csstransitions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="assets/img/CVS-logo.png">
+<html>
+    <head>
+        <!-- Compiled and minified Materialize CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css">
+        <!-- Favicon -->
+        <link rel="icon" href="./images/CVS-logo.png">
+        <!-- Character set --> 
+        <meta charset="utf-8">
+        <!-- Android 5 chrome color -->
+        <meta name="theme-color" content="#455a64">
+        <!-- Title -->
+        <title>Christopher Smith</title>
+    </head>
 
-    <title>Christopher Smith</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="assets/css/ionicons.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="./index_files/ie10-viewport-bug-workaround.js"></script>
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-  </head>
-
-  <body>
-    <div id="h">
-      <div class="container centered">
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2">
-            <h1>Hi, my name is <b>Christopher Smith</b>.<br>I am a student at Carnegie Mellon University majoring in Electrical and Computer Engineering.</h1> <!--and minoring in Human-Computer Interaction-->
+    <body>
+        <!-- Headline, info, resume link -->
+          <div id="index-banner" class="parallax-container valign-wrapper">
+            <div class="container header center white-text center-align valign">
+                <h2><b>Christopher Smith</b></h2>
+                <h4>Electrical and Computer Engineer</h4>
+                <h4>Carnegie Mellon University</h4>
+                <br>
+                <a href="./resume.pdf" id="download-button" class="btn-large waves-effect waves-dark white blue-grey-text text-darken-2"><i class="mdi-action-description left"></i><b>Résumé</b></a>
+            </div>
+            <div class="parallax"><img src="./images/px.png" alt="cubes background image"></div>
           </div>
-        </div><!--/row-->
-        <div class="row">
-            <h2><a href="/resume.pdf"><b>Résumé</b></a></h2>
+
+        <!-- Project gallery -->
+        <!-- Card action buttons are not animated right now, which is a bummer -->
+        <div class="white">
+            <div class="row container">
+                <h4 class="header col s12 center blue-grey-text text-darken-2"><b>Projects and Experiences</b></h4>
+                <!-- #drivearobot -->
+                <div class="col s12 m6 l4">  
+                    <div class="card">
+                        <div class="card-image">
+                            <a href="./projects/drivearobot.html"><img href="./projects/drivearobot.html" src="./images/projects/drivearobot/above.jpg"></a>
+                        </div>
+                        <div class="card-content">
+                            <h5>#drivearobot</h5>
+                            <p><i>HackIllinois 2015</i><br>A robot controlled with SMS and email</p>
+                        </div>
+                        <section class="blue-grey darken-2">
+                            <a href="./projects/drivearobot.html">
+                                <div class="card-action white-text">Project Page<i class="mdi-navigation-arrow-forward right"></i>
+                                </div>
+                            </a>
+                        </section>
+                    </div>
+                </div>
+                <!-- Opti -->
+                <div class="col s12 m6 l4">  
+                    <div class="card">
+                        <div class="card-image">
+                            <a href="./projects/opti.html"><img href="./projects/opti.html" src="./images/projects/opti/timeSelection.jpg"></a>
+                        </div>
+                        <div class="card-content">
+                            <h5>Opti</h5>
+                            <p><i>Hack-A-Startup 2015</i><br>Automated scheduling built for efficiency</p>
+                        </div>
+                        <a href="./projects/opti.html">
+                            <div class="card-action blue-grey darken-2 white-text">Project Page<i class="mdi-navigation-arrow-forward right"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- KosBeat -->
+                <div class="col s12 m6 offset-m3 l4">  
+                    <div class="card">
+                        <div class="card-image">
+                            <a href="./projects/kosbeat.html"><img src="./images/projects/kosbeat/screenshot.jpg"></a>
+                        </div>
+                        <div class="card-content">
+                            <h5>KosBeat</h5>
+                            <p><i>Computer Science Term Project</i><br>A geometric music generator</p>
+                        </div>
+                        <a href="./projects/drivearobot.html">
+                            <div class="card-action blue-grey darken-2 white-text">Project Page<i class="mdi-navigation-arrow-forward right"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+              </div>
         </div>
-      </div>
 
+        <!-- Footer -->
+        <footer class="page-footer blue-grey darken-1">
+          <div class="container center">
+            <div class="row">
+              <div class="col s12">
+                <h5 class="white-text">Contact</h5>
+              </div>
+              <div class="row">
+                <a class="col s12 m6 grey-text text-lighten-3" href="mailto:christophersmith@cmu.edu"><i class="mdi-communication-email"></i> christophersmith@cmu.edu</a>
+                <a class="col s12 m6 grey-text text-lighten-3" href="https://www.linkedin.com/in/chrisvsmith"><i class="mdi-social-person"></i> linkedin.com/in/chrisvsmith</a>
+                <a class="col s12 m6 grey-text text-lighten-3" href="tel:267-274-7003"><i class="mdi-communication-phone"></i> 276-274-7003</a>
+                <a class="col s12 m6 grey-text text-lighten-3" href="https://github.com/cvsmith"><i class="mdi-hardware-keyboard"></i> github.com/cvsmith</a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container center">
+            © 2015 Christopher Smith
+            </div>
+          </div>
+        </footer>
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+        <!-- JS for components-->
+        <script>
+        $(document).ready(function(){
+            $('.parallax').parallax();
+        });
+        </script>
 
-
-</body>
+    </body>
 </html>
