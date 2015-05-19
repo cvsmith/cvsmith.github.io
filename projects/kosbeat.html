@@ -1,7 +1,7 @@
 <html>
     <head>
         <!-- Compiled and minified Materialize CSS -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" media="screen,projection">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css" media="screen,projection">
         <!-- Favicon -->
         <link rel="icon" href="../images/CVS-logo.png">
         <!-- Character set --> 
@@ -18,43 +18,21 @@
         <div class="section container row left-align blue-grey-text text-darken-3">
             <a href="../index.html" class="col s3 m2 waves-effect waves-light blue-grey darken-3 btn-large"><i class="mdi-action-home"></i></a>
             <a href="./opti.html" class="col s3 offset-s3 m2 offset-m6 waves-effect waves-light blue-grey darken-3 btn-large"><i class="mdi-navigation-arrow-back"></i></a>
-            <a class="col s3 m2 waves-effect waves-dark light-grey darken-3 btn-large disabled"><i class="mdi-navigation-arrow-forward"></i></a>
+            <a href="./rube.html" class="col s3 m2 waves-effect waves-light blue-grey darken-3 btn-large"><i class="mdi-navigation-arrow-forward"></i></a>
             <h2>KosBeat</h2>
             <h4 class="light"><i>Computer Science Term Project</i></h4>
             <h4>A geometric music generator</h4>
             <i>For 15-112: Fundamentals of Programming and Computer Science, Fall 2014</i>
-        </div>
-        <!--<div class="blue-grey darken-2">
-            <br>
-            <div class="container row">
-                <div class="material-placeholder col s12 m6 l4">
-                    <img class="materialboxed initialized responsive-img" width="600" data-caption="Steve, myself, and Austin (Courtesy of Major League Hacking)" src="../images/projects/drivearobot/MLHCandid.jpg"><br>
-                </div>
-                <div class="material-placeholder col s12 m6 l4">
-                    <img class="materialboxed initialized responsive-img" width="600" data-caption="3D printing parts" src="../images/projects/drivearobot/3DPrinting.jpg"><br>
-                </div>
-                <div class="material-placeholder col s12 m6 l4">
-                   <img class="materialboxed initialized responsive-img" width="600" data-caption="Our 3D-printed cones, HackIllinois logo, robot" src="../images/projects/drivearobot/side.jpg"><br>
-                </div>
-                <div class="material-placeholder col s12 m6 l4 offset-l2">
-                   <img class="materialboxed initialized responsive-img" width="600" data-caption="The final product" src="../images/projects/drivearobot/above.jpg"><br>
-                </div>
-                <div class="material-placeholder col s12 m6 offset-m3 l4">
-                   <img class="materialboxed initialized responsive-img" width="600" data-caption="Steve, Austin, myself, and Carter" src="../images/projects/drivearobot/team.jpg"><br>
-                </div>
-            </div>
-        </div>-->
-        <div class="container row">
-            <!--<h4 class="left-align">About the project</h4>
-            <p class="flow-text">
-            It's like Twitch Plays Pokémon, but with a robot. Anyone can send a text message or an email with a command, and the robot will perform the action. The object of the game is to drive the robot through cones and then back to the start.
-            <br><br>
-            We 3D-printed all parts over the weekend with Steve's homemade 3D printer. My role consisted of using Twilio's and Mailjet's APIs to accept commands. User input was sent to a server running Flask, and the commands were sent via serial communication to our robot's Arduino Uno. The Uno in turn drove the robot's motors and flashed its LEDs.
-            </p>-->
             <h4 class="left-align blue-grey-text text-darken-3">A demo and explanation</h4>
             <div class="video-container">
                 <iframe width="853" height="480" src="https://www.youtube.com/embed/i-fBBa38Vi0" frameborder="0" allowfullscreen></iframe>
             </div><br>
+            <h4 class="left-align">About the project</h4>
+            <p class="flow-text">
+            KosBeat is based on the application <a href="http://nodebeat.com/">NodeBeat</a>. The user creates a design of circles and squares. When a circle and a square are near each other, a line forms between them. This indicates that a sound will play. The tone of the sound corresponds to the two shapes' colors, and the timing of the sound corresponds to the length of the line. Each combination of circle and square creates a unique sound. The user can change how the entire composition sounds using the settings at the bottom. They can alter the key, type of scale, and tempo of the music, as well as how many times the music will loop when they press play. They can modify their music by adding shapes, removing them, or dragging them.
+            <br><br>
+            I wrote the application in Python using several modules and packages. The interface was animated with Tkinter, and the sounds were played with Pygame. If I did the project again, I would implement both the animation and the sounds with Pygame to enable the two to be synchronized. Whenever a connection was made, a sound was chosen on the fly based on the connections endpoints and 
+            </p>
         </div>
 
         <!-- Footer -->
