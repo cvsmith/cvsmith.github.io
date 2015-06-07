@@ -11,50 +11,57 @@
         <!-- Android 5 chrome color -->
         <meta name="theme-color" content="#37474f">
         <!-- Title -->
-        <title>Opti</title>
+        <title>Accolade</title>
     </head>
 
     <body>
         <div class="section container row left-align blue-grey-text text-darken-3">
             <a href="/" class="col s3 m2 waves-effect waves-light blue-grey darken-3 btn-large"><i class="mdi-action-home"></i></a>
-            <a href="./drivearobot.html" class="col s3 offset-s3 m2 offset-m6 waves-effect waves-light blue-grey darken-3 btn-large"><i class="mdi-navigation-arrow-back"></i></a>
-            <a href="./kosbeat.html" class="col s3 m2 waves-effect waves-light blue-grey darken-3 btn-large"><i class="mdi-navigation-arrow-forward"></i></a>
+            <a class="col s3 offset-s3 m2 offset-m6  waves-effect waves-dark light-grey darken-3 btn-large disabled"><i class="mdi-navigation-arrow-back"></i></a>
+            <a href="./drivearobot.html" class="col s3 m2 waves-effect waves-light blue-grey darken-3 btn-large"><i class="mdi-navigation-arrow-forward"></i></a>
             <br><br>
-            <h1>Opti</h1>
-            <h4 class="light"><i>Hack-A-Startup 2015</i></h4>
-            <h4>An automatic meeting scheduler</h4>
-            <i>Teammates: Pulkita Dua, Benjamin Latz, Alice Rao, Avi Romanoff, Rajat Mehndiratta, Gaston Tamboura, Dina Yerlan</i>
+            <h2>Accolade</h2>
+            <h4 class="light"><i>Engagement Technology Group Summer Intern</i></h4>
+            <h4>More info coming soon!</h4>
+            <a href="http://www.accolade.com">
+                <img src="../images/projects/accolade/logo.png">
+            </a>
+            <p class="flow-text">
+                I will be working with the Engagement Technology Group at Accolade this summer. The team uses the Scrum Agile Methodology to create both client- and business-facing software for the company in a high-paced environment. Read more about Accolade and its mission <a href="http://www.accolade.com">here.</a>
+            </div>
+            <!--<i>Teammates: Carter Durno, Steven Macenski, Austin Martinovich</i>
         </div>
         <div class="blue-grey darken-3">
             <br>
             <div class="container row">
                 <div class="material-placeholder col s12 m6 l4">
-                    <img class="materialboxed initialized responsive-img" width="600" data-caption="Our workspace in the Tepper School of Business" src="../images/projects/opti/tepper.jpg"><br>
+                    <img class="materialboxed initialized responsive-img" width="600" data-caption="Steve, myself, and Austin (Courtesy of Major League Hacking)" src="../images/projects/drivearobot/MLHCandid.jpg"><br>
                 </div>
                 <div class="material-placeholder col s12 m6 l4">
-                    <img class="materialboxed initialized responsive-img" width="600" data-caption="Choose a day with natural language processing" src="../images/projects/opti/dateSelection.jpg"><br>
+                    <img class="materialboxed initialized responsive-img" width="600" data-caption="3D printing parts" src="../images/projects/drivearobot/3DPrinting.jpg"><br>
                 </div>
                 <div class="material-placeholder col s12 m6 l4">
-                   <img class="materialboxed initialized responsive-img" width="600" data-caption="Enter a duration with natural language processing" src="../images/projects/opti/meetingDuration.jpg"><br>
+                   <img class="materialboxed initialized responsive-img" width="600" data-caption="Our 3D-printed cones, HackIllinois logo, robot" src="../images/projects/drivearobot/side.jpg"><br>
                 </div>
-                <div class="material-placeholder col s12 m6 l4">
-                   <img class="materialboxed initialized responsive-img" width="600" data-caption="Enter a topic for the meeting" src="../images/projects/opti/meetingName.jpg"><br>
+                <div class="material-placeholder col s12 m6 l4 offset-l2">
+                   <img class="materialboxed initialized responsive-img" width="600" data-caption="The final product" src="../images/projects/drivearobot/above.jpg"><br>
                 </div>
-                <div class="material-placeholder col s12 m6 l4">
-                   <img class="materialboxed initialized responsive-img" width="600" data-caption="Automatically check guests' calendars" src="../images/projects/opti/guestInvites.jpg"><br>
-                </div>
-                <div class="material-placeholder col s12 m6 l4">
-                   <img class="materialboxed initialized responsive-img" width="600" data-caption="Select a time and instantly invite guests" src="../images/projects/opti/timeSelection.jpg"><br>
+                <div class="material-placeholder col s12 m6 offset-m3 l4">
+                   <img class="materialboxed initialized responsive-img" width="600" data-caption="Steve, Austin, myself, and Carter" src="../images/projects/drivearobot/team.jpg"><br>
                 </div>
             </div>
         </div>
         <div class="container row blue-grey-text text-darken-3">
             <h4 class="left-align">About the project</h4>
             <p class="flow-text">
-            Opti enables anyone to find the perfect time for a group meeting. The user simply enters the day, duration, and guests he or she wants for the meeting, and Opti does the rest. It scans each guests' Google calendar and automatically selects a time when everyone is free. If no such time exists, it selects times when almost everyone is free and indicates the conflicts. After the user chooses an available time, Opti adds the meeting to all guests' calendars and sends them notifications.
+            It's like Twitch Plays Pokémon, but with a robot. Anyone can send a text message or an email with a command, and the robot will perform the action. The object of the game is to drive the robot through cones and then back to the start.
             <br><br>
-            We used Flask, RethinkDB, and Heroku. My contribution included Python code that converted times between the formats APIs used, the format our time-selection algorithm used, and the format our designers wanted the user to see. I also worked to integrate the Google Calendar API.
+            We 3D-printed all parts over the weekend with Steve's homemade 3D printer. My role consisted of using Twilio's and Mailjet's APIs to accept commands. User input was sent to a server running Flask, and the commands were sent via serial communication to our robot's Arduino Uno. The Uno in turn drove the robot's motors and flashed its LEDs.
             </p>
+            <h4 class="left-align">A (very) short demo</h4>
+            <div class="video-container">
+                <iframe width="853" height="480" src="https://www.youtube.com/embed/ZVdZBgjwEVY" frameborder="0" allowfullscreen></iframe>
+            </div><br>
         </div>
 
         <!-- Footer -->
@@ -78,6 +85,7 @@
             </div>
           </div>
         </footer>
+
         <!-- jQuery -->
         <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
         <!-- Compiled and minified JavaScript -->

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <!-- Compiled and minified Materialize CSS -->
@@ -22,31 +23,41 @@
         <!-- Headline, info, resume link -->
         <div class="parallax-container valign-wrapper" style="height:600px">
             <div style="font-variant:small-caps" class="container header left-align valign white-text">
-                <h1><b>C</b>hristopher <b>V.</b> <b>S</b>mith</h2>
+                <h1 style="font-size:480%"><b>C</b>hristopher <b>V.</b> <b>S</b>mith</h2>
                 <h3><b>E</b>lectrical and <b>C</b>omputer <b>E</b>ngineer</h4>
                 <h3><b>C</b>arnegie <b>M</b>ellon <b>U</b>niversity</h4>
                 <br>
                 <a href="./resume.pdf" id="download-button" class="btn-large waves-effect waves-dark white blue-grey-text text-darken-3"><i class="mdi-action-description left"></i><b>Résumé</b></a>
             </div>
-        <div class="parallax"><img src="./images/px2.png" alt="3px tile background by Gre3g"></div>
+        <div class="parallax"><img src="./images/navy_blue.png" alt="Navy Blue (misleading name) background from Subtle Backgrounds"></div>
         </div>
 
         <!-- Project gallery -->
         <!-- Card action buttons are not animated right now, which is a bummer -->
-        <div class="container row white">
+        <div class="container row">
             <h4 class="header blue-grey-text text-darken-3"><b>Projects and Experiences</b></h4>
+            <!-- Accolade -->
+            <div class="col s12 m6 l4">  
+                <div class="card">
+                    <div class="card-image">
+                        <a href="./projects/accolade.html"><img href="./projects/accolade.html" src="./images/projects/accolade/logo.png"></a>
+                    </div>
+                    <a href="./projects/accolade.html">
+                        <div class="card-action blue-grey darken-3 white-text">Accolade, Inc.<i class="mdi-navigation-arrow-forward right"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
             <!-- #drivearobot -->
             <div class="col s12 m6 l4">  
                 <div class="card">
                     <div class="card-image">
                         <a href="./projects/drivearobot.html"><img href="./projects/drivearobot.html" src="./images/projects/drivearobot/above.jpg"></a>
                     </div>
-                    <section class="blue-grey darken-3">
-                        <a href="./projects/drivearobot.html">
-                            <div class="card-action white-text">#drivearobot<i class="mdi-navigation-arrow-forward right"></i>
-                            </div>
-                        </a>
-                    </section>
+                    <a href="./projects/drivearobot.html">
+                        <div class="card-action blue-grey darken-3 white-text">#drivearobot<i class="mdi-navigation-arrow-forward right"></i>
+                        </div>
+                    </a>
                 </div>
             </div>
             <!-- Opti -->
@@ -74,7 +85,7 @@
                 </div>
             </div>
             <!-- Rube Goldberg -->
-            <div class="col s12 m6 l4 offset-l4">  
+            <div class="col s12 m6 l4">  
                 <div class="card">
                     <div class="card-image">
                         <a href="./projects/rube.html"><img src="./images/projects/rube/final.jpg"></a>
