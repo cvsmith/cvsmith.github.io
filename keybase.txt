@@ -1,14 +1,15 @@
-### Keybase proof
+==================================================================
+https://keybase.io/cvsmith
+--------------------------------------------------------------------
 
 I hereby claim:
 
-  * I am cvsmith on github.
+  * I am an admin of http://cvsmith.me
   * I am cvsmith (https://keybase.io/cvsmith) on keybase.
-  * I have a public key whose fingerprint is DD2E E0C8 E7E5 F8F4 C2E3  FCAA 2446 04BA 4214 212D
+  * I have a public key with fingerprint DD2E E0C8 E7E5 F8F4 C2E3  FCAA 2446 04BA 4214 212D
 
-To claim this, I am signing this object:
+To do so, I am signing this object:
 
-```json
 {
     "body": {
         "key": {
@@ -20,62 +21,47 @@ To claim this, I am signing this object:
             "username": "cvsmith"
         },
         "service": {
-            "name": "github",
-            "username": "cvsmith"
+            "hostname": "cvsmith.me",
+            "protocol": "http:"
         },
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1434478646,
+    "ctime": 1434479016,
     "expire_in": 157680000,
-    "prev": null,
-    "seqno": 1,
+    "prev": "10454b63975a23c1cd8e679f3b148427cd6041bdd1c7e5eee986566c8ec8f17f",
+    "seqno": 2,
     "tag": "signature"
 }
-```
 
-with the key [DD2E E0C8 E7E5 F8F4 C2E3  FCAA 2446 04BA 4214 212D](https://keybase.io/cvsmith), yielding the signature:
+which yields the signature:
 
-```
 -----BEGIN PGP MESSAGE-----
 Version: Keybase OpenPGP v2.0.8
 Comment: https://keybase.io/crypto
 
-yMHaAnicdVFdSFNRHN9mc2pJM/zIILP7EBIr7r07995tRCnqi+AiaaFQrHvuPWde
-3O62u92ZiWI+RBI9lPUgzQI1a5RkmFGEYCHISIQySJhSCELYFxYF9kXnir3V4cCf
-8/v6/zn/qfwsU575yJWc3mL/RKn52eSabvJ1NfPtFAzLbZSnnWpB6wUragBpEU1R
-45SHkmUWIVpyIQFx2IWBxCInlkSRBYCnARQBy5DLypSDag7HDAeJgWIM7VfCBCMP
-vyIT9B/6lnWCZmgGCtDt5jEnikBEbkBLNCNAGnAYIUHEDOQxL9NIdiIZC5zgRph1
-IghoJyEYhsMSLZI4fT3OLXAyS+bDNAljMXBBkSNVwKyMAcO4DWEMaaoYQkQtJWIh
-Jd5MdTgoAiYUCRk/sEEGCKPD/xribREDaUXQv+H1Q0WVye8RSwJpMSWsUh6GKKW4
-YpgZ4ARAcPGAd1DoVETRkF8xFJzAu2hyHFREQwnKo+rBoDFPVA0TljQSA6RPTAmo
-YlzXENXxdPL4JpM5z5RttRgbNOXl2v/u9UlFjmlp76UzJ0tCqcsNQytv/E3DUof3
-d6OuaHD+nnX4fNxS5b0QLLT+PPB5KC15F193p8c/bCsPzRXv6JwJWCwNq+rVzr7c
-b+Vz4OFyYLs86ItOT/UU3K9ssw0ODxRMly4NjX706qhm8fvd/sKZ5+O1ofkFfdfC
-WOVEVmr27ZZwcgpmnGPtnuWRVMmtnINHz+2J2j61Zspqrj0Gc2WHq1e1Rrv9UVWT
-YE5a3t0oOZast33tLtr5Kt13MTe2Wu0s6t2agQPWzJee01zdGNOXyh858bLC5ope
-n51ZuuPbXfugX6GLC9O3f2WvjdoPdb2oT9ZxN4Pp95uDP/atnJ1P/AHRBxCR
-=mSE7
+yMIZAnicbVJdSFRBFF5/UjO1NAqUMrhRK7TJnbtz/zaVQloIg1pLEjGWe+/MuNfV
+3XV31RXdrIReyqKWfkgs7CFDKl8kJbDWKDWFFbMfszLoYbMngySSfmiu1EPQMHA4
+3/nON+ecOY8zk0zpCY6LaZGNzuHchMmR4kZTxXH9ViujelELY2tl3HjFEN1Tg/0+
+v+4JMjYGIQ5jVpOwiHkiEahx2Eo0ReEgFFioKpAD9HKIsTAub8DIoDKqEsCFupdi
+1HHqiKL/4btXAixggSqqsiwQXlGggmXIaiwQVRbyBGNRIUAViIBYjKwYEZEXZUw4
+K1Yha6UBAHiisQqVa1yRk0UecbQ+wlIxjkBJVXhqRcIhAgGQDWIA+z1KPaZsrSlQ
+rwddTNjCULBJ17AxAaORfwmF1LEwPr836NW8dRR3BYM+m5EWbPEZvGasOv8oOFXd
+g+gMaUIT9gd0r4exAcrUgrohCaAVQlFmgWBhcMin+7FTNxi8KEgsPcYzuIlKAjoA
+qApW2pHCWTWgIQkLokysKoAS5EQN0YECFSGg0b/BGMuSwAsC/SpNIkAkjNFTg8fL
+2DhaplJDJQN6jUcJNvoxE34UrU42JaSbUlYlGltgSl+97u9uCEVppu6JflvpgY61
+9pGZxIz2DPNAYfxe2XLkUqpe/uNEgRmcHfrUNtnd+z0vyVHdv3XeUbSjr7b3XXHi
+jSq0s9P3YMNclH/tmn1xeKzZOf6wG6Xk/cKj51OkkPv2QGx/5MqW/ORXdaXvs5ZK
+TjZEpy6k2b/OP81XYpuPLXzryjp16HNXyd2DH3N9s7X8F398oqW6Ins59Gxba7x2
+Mfn01ZdPJpbGK+9/OBfa1x5PAp437t1DDXLMfcYxld0Jb24Hyp6lhWz7rpxU8+B6
+83jV1KaOvT3hgmhHeHgx55owmN8fjvQcqZqpvDP083nm5bKYSz9qKp/um1szZptu
+G819W3Ld/hsgLCSo
+=NaPI
 -----END PGP MESSAGE-----
 
-```
+And finally, I am proving ownership of this host by posting or
+appending to this document.
 
-And finally, I am proving ownership of the github account by posting this as a gist.
+View my publicly-auditable identity here: https://keybase.io/cvsmith
 
-### My publicly-auditable identity:
-
-https://keybase.io/cvsmith
-
-### From the command line:
-
-Consider the [keybase command line program](https://keybase.io/docs/command_line).
-
-```bash
-# look me up
-keybase id cvsmith
-
-# encrypt a message to me
-keybase encrypt cvsmith -m 'a secret message...'
-
-# ...and more...
-```
+==================================================================
