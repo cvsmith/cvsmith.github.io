@@ -1,0 +1,81 @@
+### Keybase proof
+
+I hereby claim:
+
+  * I am cvsmith on github.
+  * I am cvsmith (https://keybase.io/cvsmith) on keybase.
+  * I have a public key whose fingerprint is DD2E E0C8 E7E5 F8F4 C2E3  FCAA 2446 04BA 4214 212D
+
+To claim this, I am signing this object:
+
+```json
+{
+    "body": {
+        "key": {
+            "fingerprint": "dd2ee0c8e7e5f8f4c2e3fcaa244604ba4214212d",
+            "host": "keybase.io",
+            "key_id": "244604ba4214212d",
+            "kid": "0101b7b996f5aa4ae940c017b045fee7af1b6f6d0ed3edf7579ef23eb403b6f115fc0a",
+            "uid": "975d2caaf0aa42f48ba542f7f2df4119",
+            "username": "cvsmith"
+        },
+        "service": {
+            "name": "github",
+            "username": "cvsmith"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1434478646,
+    "expire_in": 157680000,
+    "prev": null,
+    "seqno": 1,
+    "tag": "signature"
+}
+```
+
+with the key [DD2E E0C8 E7E5 F8F4 C2E3  FCAA 2446 04BA 4214 212D](https://keybase.io/cvsmith), yielding the signature:
+
+```
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMHaAnicdVFdSFNRHN9mc2pJM/zIILP7EBIr7r07995tRCnqi+AiaaFQrHvuPWde
+3O62u92ZiWI+RBI9lPUgzQI1a5RkmFGEYCHISIQySJhSCELYFxYF9kXnir3V4cCf
+8/v6/zn/qfwsU575yJWc3mL/RKn52eSabvJ1NfPtFAzLbZSnnWpB6wUragBpEU1R
+45SHkmUWIVpyIQFx2IWBxCInlkSRBYCnARQBy5DLypSDag7HDAeJgWIM7VfCBCMP
+vyIT9B/6lnWCZmgGCtDt5jEnikBEbkBLNCNAGnAYIUHEDOQxL9NIdiIZC5zgRph1
+IghoJyEYhsMSLZI4fT3OLXAyS+bDNAljMXBBkSNVwKyMAcO4DWEMaaoYQkQtJWIh
+Jd5MdTgoAiYUCRk/sEEGCKPD/xribREDaUXQv+H1Q0WVye8RSwJpMSWsUh6GKKW4
+YpgZ4ARAcPGAd1DoVETRkF8xFJzAu2hyHFREQwnKo+rBoDFPVA0TljQSA6RPTAmo
+YlzXENXxdPL4JpM5z5RttRgbNOXl2v/u9UlFjmlp76UzJ0tCqcsNQytv/E3DUof3
+d6OuaHD+nnX4fNxS5b0QLLT+PPB5KC15F193p8c/bCsPzRXv6JwJWCwNq+rVzr7c
+b+Vz4OFyYLs86ItOT/UU3K9ssw0ODxRMly4NjX706qhm8fvd/sKZ5+O1ofkFfdfC
+WOVEVmr27ZZwcgpmnGPtnuWRVMmtnINHz+2J2j61Zspqrj0Gc2WHq1e1Rrv9UVWT
+YE5a3t0oOZast33tLtr5Kt13MTe2Wu0s6t2agQPWzJee01zdGNOXyh858bLC5ope
+n51ZuuPbXfugX6GLC9O3f2WvjdoPdb2oT9ZxN4Pp95uDP/atnJ1P/AHRBxCR
+=mSE7
+-----END PGP MESSAGE-----
+
+```
+
+And finally, I am proving ownership of the github account by posting this as a gist.
+
+### My publicly-auditable identity:
+
+https://keybase.io/cvsmith
+
+### From the command line:
+
+Consider the [keybase command line program](https://keybase.io/docs/command_line).
+
+```bash
+# look me up
+keybase id cvsmith
+
+# encrypt a message to me
+keybase encrypt cvsmith -m 'a secret message...'
+
+# ...and more...
+```
