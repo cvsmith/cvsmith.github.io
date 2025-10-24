@@ -6,7 +6,7 @@
   - It's your combined resume and passive talent agent. Keep it up to date and
     comprehensive. Connect with everyone you know.
   - In my experience, employers pay attention to where you've worked, what roles
-    you've had, years of experience, location, school, mutual connections, in
+    you've had, years of experience, location, school, and mutual connections, in
     roughly that order.
   - Whether or not you set "Open to Work", it tells employers that you exist,
     that you're available, and whether they should reach out to you. Even if they
