@@ -29,7 +29,7 @@
       - Enjoyment Above Replacement: What do you enjoy more than someone
         randomly selected might?
       - Hosting Above Replacement: How much is a party's theme unique to that
-        host, that only the could put it on?
+        host, that only they could put it on?
 
 - Balance that with the fact that **until you have one job offer, you have
   none.** Don't get ahead of yourself.
